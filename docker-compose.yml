@@ -6,5 +6,8 @@ services:
     container_name: 'python3'
     working_dir: '/root/src'
     tty: true
+    environment:
+      - DISPLAY
     volumes:
       - ${SRC_PATH}:/root/src
+      - /tmp/.X11-unix:/tmp/.X11-unix
