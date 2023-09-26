@@ -1,4 +1,4 @@
-# OPEN3D_ENV
+# OPEN3D-DOCKER
 
 ## これは何？
 - open3dの開発環境をdockerで構築してみる
