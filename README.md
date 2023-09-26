@@ -37,7 +37,7 @@ SRC_PATH=./src
 
 ## 2. Linux ディストリビューションのインストール
 
-1. Microsoft Store を開き、お好きな Linux ディストリビューション（例: Ubuntu）をインストールします。
+1. Microsoft Store を開き、Linux ディストリビューション（ Ubuntu）をインストールします。
 2. インストールが完了したら、ディストリビューションを起動して初期設定を行います。
 
 ## 3. WSL2 への切り替え
@@ -55,7 +55,9 @@ SRC_PATH=./src
 
 ## 5. Docker コンテナの実行
 
-1. WSL2 のターミナルを開き、プロジェクトディレクトリ（例: `/mnt/d/git/open_3d`）に移動します。
+1. WSL2 のターミナルを開き、プロジェクトディレクトリに移動します。
+   1. "powershell"を開いて`wsl -d Ubuntu`->`enter`
+   2. `cd /mnt/../[open_3d_docker(プロジェクトディレクトリ)]`
 
 2. Docker コンテナをビルド・起動します。
     ```bash
